@@ -1,0 +1,6 @@
+[
+  {
+    "name": "web",
+    "imageUri": "<account_id>.dkr.ecr.<region>.amazonaws.com/ecs-cicd-repo:latest"
+  }
+]
