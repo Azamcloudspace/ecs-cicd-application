@@ -17,7 +17,7 @@ phases:
   post_build:
     commands:
       - echo Writing image definitions...
-      - printf '[{"name":"web","imageUri":"%s"}]' "$REPOSITORY_URI:$IMAGE_TAG" > imagedefinitions.json
+      - printf '[{"name":"app","imageUri":"%s"}]' "$REPOSITORY_URI:$IMAGE_TAG" > imagedefinitions.json
 
 artifacts:
   files:
